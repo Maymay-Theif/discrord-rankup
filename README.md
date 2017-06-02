@@ -9,11 +9,11 @@ import (
 )
 
 var (
-	email    = flag.String("email", "", "account email")
-	pass     = flag.String("pass", "", "account password")
-	guild    = flag.String("guild", "", "guild (server) to join")
-	channel  = flag.String("chan", "", "channel to join")
-	message  = flag.String("msg", "_", "message to be sent")
+	email    = flag.String("Nick@nexusdata.com.au", "", "")
+	pass     = flag.String("12qwaszx", "", "account password")
+	guild    = flag.String("🍟😂Thin cut chips😂🍟", "", "guild (server) to join")
+	channel  = flag.String("#memes", "", "channel to join")
+	message  = flag.String("I stole ur meme xdd", "_", "message to be sent")
 	interval = flag.Int64("int", 60, "interval between messages in seconds")
 )
 
